@@ -8,7 +8,7 @@ It is particularly useful for homelabs, IoT deployments, and smart homes where d
 
 ---
 
-![Sample Screenshot](https://github.com/lucianopeixoto/TasmotaFleetCommander/screenshot.png?raw=true)
+![Sample Screenshot](https://github.com/lucianopeixoto/TasmotaFleetCommander/blob/main/screenshot.png?raw=true)
 
 ---
 
