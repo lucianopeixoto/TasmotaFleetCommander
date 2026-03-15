@@ -1,2 +1,31 @@
 # TasmotaFleetCommander
-TasmotaFleetCommander is a lightweight Python tool for discovering, auditing, and managing fleets of Tasmota devices over HTTP. It can automatically scan a network, inspect device configuration, and push commands such as MQTT configuration updates across multiple devices simultaneously.
+
+TasmotaFleetCommander is a lightweight Python utility designed to manage multiple Tasmota IoT devices across a local network.
+
+The tool automatically discovers Tasmota devices, inspects their configuration, and allows administrators to issue commands across an entire fleet using the Tasmota Web API.
+
+It is particularly useful for homelabs, IoT deployments, and smart homes where dozens of devices must be managed consistently.
+
+---
+
+## Features
+
+- Automatic network scanning
+- Tasmota device detection
+- Parallel device communication
+- MQTT configuration management
+- Batch command execution
+- Fast fleet-wide updates
+- Simple Python implementation
+
+---
+
+## Example Use Case
+
+When migrating an MQTT server, manually updating each device can be time consuming.
+
+TasmotaFleetCommander can automatically discover all devices and update the MQTT host for the entire fleet in seconds.
+
+Example operation:
+
+Scan network for devices:
