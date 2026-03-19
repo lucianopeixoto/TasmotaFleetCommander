@@ -5,7 +5,7 @@ from urllib.parse import quote
 
 requests.packages.urllib3.disable_warnings()
 
-# User Settings. 
+# MQTT Settings
 # TODO: Make patameters to be setup by 3 options: 
 # 1 - Config file to be loaded by app, 
 # 2 - Passed as argument when executing main.py
@@ -14,6 +14,8 @@ NETWORK = "10.3.13.0/24"
 MQTT_HOST = "lcpsrv"
 MQTT_PORT = "1883"
 
+# System Settings:
+# TODO: Also make it configurable from user side as the MQTT Settings (?)
 TIMEOUT = 3
 MAX_THREADS = 40
 
