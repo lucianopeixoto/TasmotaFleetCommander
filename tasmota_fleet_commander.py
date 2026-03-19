@@ -5,6 +5,11 @@ from urllib.parse import quote
 
 requests.packages.urllib3.disable_warnings()
 
+# User Settings. 
+# TODO: Make patameters to be setup by 3 options: 
+# 1 - Config file to be loaded by app, 
+# 2 - Passed as argument when executing main.py
+# 3 - By asking for user input during execution if no parameter or file were passed on
 NETWORK = "10.3.13.0/24"
 MQTT_HOST = "lcpsrv"
 MQTT_PORT = "1883"
